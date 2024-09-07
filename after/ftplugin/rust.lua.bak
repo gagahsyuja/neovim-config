@@ -1,0 +1,38 @@
+local buffnr = vim.api.nvim_get_current_buf()
+local opts = { silent = true, buffer = buffnr }
+
+vim.keymap.set(
+    "n",
+    "<leader>ca",
+    function()
+        vim.cmd.RustLsp('codeAction')
+    end,
+    opts
+)
+
+vim.keymap.set(
+    "n",
+    "<leader>hh",
+    function()
+        vim.cmd.RustLsp { 'hover', 'actions'}
+    end,
+    opts
+)
+
+vim.keymap.set(
+    "n",
+    "<leader>ee",
+    function()
+        vim.cmd.RustLsp('explainError')
+    end,
+    opts
+)
+
+vim.keymap.set(
+    "n",
+    "<leader>oc",
+    function()
+        vim.cmd.RustLsp('openCargo')
+    end,
+    opts
+)
