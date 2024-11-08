@@ -15,7 +15,8 @@ return {
                 "css",
                 "javascript",
                 "typescript",
-                "svelte"
+                "svelte",
+                "dart"
             },
             highlight = { enable = true },
             indent = { enable = false },
