@@ -9,7 +9,7 @@ return {
         -- require("cmp_nvim_lsp").setup()
         -- lspconfig.rust_analyzer.setup({})
         lspconfig.lua_ls.setup({})
-        lspconfig.tsserver.setup({})
+        lspconfig.ts_ls.setup({})
         lspconfig.svelte.setup({})
     end
 }

@@ -9,7 +9,7 @@ return {
                 "rust_analyzer",
                 "svelte",
                 "tailwindcss",
-                "tsserver",
+                "ts_ls",
                 "cssls",
                 "clangd",
                 "lua_ls"
