@@ -16,7 +16,8 @@ return {
                 "javascript",
                 "typescript",
                 "svelte",
-                "dart"
+                "dart",
+                "python"
             },
             highlight = { enable = true },
             indent = { enable = false },

@@ -11,5 +11,6 @@ return {
         lspconfig.lua_ls.setup({})
         lspconfig.ts_ls.setup({})
         lspconfig.svelte.setup({})
+        lspconfig.pyright.setup({})
     end
 }
